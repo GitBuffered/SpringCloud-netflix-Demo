@@ -55,6 +55,6 @@
 	<modules>
 		<module>springcloud-eureka-server</module>
 		<module>springcloud-eureka-HA-server</module>
-		<module>springcloud-eureka-HA-server01</module>
+		<module>springcloud-eureka-HA-server02</module>
 	</modules>
 </project>
