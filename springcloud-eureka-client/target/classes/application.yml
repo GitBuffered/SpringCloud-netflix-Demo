@@ -5,4 +5,6 @@ eureka:
 spring:
   application:
     name: client
+server:
+  port: 1212
 
