@@ -1,0 +1,17 @@
+server:
+  port: 1111
+security:
+  basic:
+    enabled: true
+  user:
+    name: test
+    password: test
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone:http://test:test@${eureka.instance.hostname}:${server.port}/eureka/ 
+    
