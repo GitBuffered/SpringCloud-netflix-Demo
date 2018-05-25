@@ -13,5 +13,5 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone:  http://test:test@localhost:1111/eureka  # 安全的注册地址  
+      defaultZone:http://test:test@${eureka.instance.hostname}:${server.port}/eureka/ 
     

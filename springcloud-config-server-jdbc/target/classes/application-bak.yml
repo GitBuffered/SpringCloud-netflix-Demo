@@ -1,0 +1,22 @@
+#spring.profiles.active=jdbc
+spring:
+  cloud:
+    config:
+      label: master
+      server:
+        jdbc:
+          sql: select `key`, `value` from properties where application=? and profile=? and 'label'=?
+  profiles:
+    active: jdbc
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: jdbcdemo
+
+      
+##127.0.0.1:8080/local-default.yml 访问路径
+
+

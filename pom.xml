@@ -55,8 +55,13 @@
 		<module>springcloud-eureka-server</module>
 		<module>springcloud-eureka-HA-server</module>
 		<module>springcloud-eureka-HA-server01</module>
-    <module>springcloud-eureka-client</module>
-    <module>springcloud-eureka-server-authenticating</module>
-    <module>springcloud-eureka-client-authentication</module>
+		<module>springcloud-eureka-client</module>
+		<module>springcloud-eureka-server-authenticating</module>
+		<module>springcloud-eureka-client-authentication</module>
+		<module>springcloud-config-server</module>
+		<module>springcloud-config-client</module>
+  <module>springcloud-config-server-jdbc</module>
+    <module>springcloud-config-server-encrypt</module>
   </modules>
+  
 </project>

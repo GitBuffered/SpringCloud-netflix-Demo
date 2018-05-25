@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:8080
+      label: master #当ConfigServer后端存储是GIT默认就是master
+      profile: test
+server:
+  port: 9999
+

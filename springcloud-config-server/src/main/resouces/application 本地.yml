@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/startSnow/config-simple
+          repos:
+            local:
+              pattern: local*
+              uri: file:/home/chixue/config-repo
+##127.0.0.1:8080/local-default.yml 访问路径

@@ -10,7 +10,6 @@
   <artifactId>springcloud-eureka-client</artifactId>
   <name>springcloud-eureka-client</name>
   <url>http://maven.apache.org</url>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>

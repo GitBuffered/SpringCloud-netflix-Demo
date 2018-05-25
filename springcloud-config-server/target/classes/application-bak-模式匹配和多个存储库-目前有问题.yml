@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/startSnow/config-repo ##公用的
+          repos:
+            simple: https://github.com/startSnow/config-simple
+            special:
+              pattern: special*/dev*,*special*/test*
+              uri: https://github.com/startSnow/special
+##生产模式不建议使用，容易混乱

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: foo
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/startSnow/config-repo
+        cloneOnStart: false
+          
+
+##浏览器访问127.0.0.1:8080/foo-default.properties 默认找application.properties
+
+##127.0.0.1:8080/foo-bar/master 以JSON 形式展现

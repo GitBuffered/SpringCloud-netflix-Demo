@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: foo
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/configs/{application}
