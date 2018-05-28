@@ -5,6 +5,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/startSnow/config-simple
+          uri: https://github.com/startSnow/open-cloud
+          searchPaths: encrypt
+  application:
+    name: config
 encrypt:
   key: foo
+##加密curl -X POST localhost:8888/encrypt -d  foo 
+##解密 curl -X POST localhost:8888/decrypt -d  2c3400b2bc95a50a1edbb2a97271f900f91b573632b4866672cd347dadf7730a

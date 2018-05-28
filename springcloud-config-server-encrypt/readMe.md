@@ -51,7 +51,9 @@ encrypt:
     secret: changeme
 
 
+>最终发现不是以上的问题，而是配置文件加载顺序的问题，我之前用application 把他切换成bootstarp 文件后，问题解决
 
-spring cloud bug
+##加密curl -X POST localhost:8888/encrypt -d  foo 
+##解密 curl -X POST localhost:8888/decrypt -d  2c3400b2bc95a50a1edbb2a97271f900f91b573632b4866672cd347dadf7730a
 
-Dalston.SR3、Dalston.SR2版本不能对配置文件加密，若需要调整到Dalston.SR1或者期待Dalston.SR4的发布
+浏览器访问127.0.0.1:8888/test/master

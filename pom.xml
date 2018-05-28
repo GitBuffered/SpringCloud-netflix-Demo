@@ -62,6 +62,7 @@
 		<module>springcloud-config-client</module>
   <module>springcloud-config-server-jdbc</module>
     <module>springcloud-config-server-encrypt</module>
+    <module>spring-cloud-config-server-eureka</module>
   </modules>
   
 </project>
