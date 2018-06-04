@@ -1,10 +1,10 @@
 eureka:
-  instance:
-    statusPageUrlPath: ${management.context-path}/info
-    healthCheckUrlPath: ${management.context-path}/health
   client:
     serviceUrl:
       defaultZone: http://localhost:1111/eureka/
 server:
-  port: 1212
+  port: 1211
   context-path: /test
+spring:
+  application:
+    name: client

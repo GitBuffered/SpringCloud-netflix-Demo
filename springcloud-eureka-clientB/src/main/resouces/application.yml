@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: clientB
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+server:
+  port: 1213
+  context-path: /test

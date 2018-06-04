@@ -1,4 +1,4 @@
-package org.springcloud.eureka.client;
+package org.springcloud.eureka.clientB;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Application {
 
-    @RequestMapping("/")
+    @RequestMapping("/hi")
     public String home() {
-        return "Hello world";
+        return "hi";
     }
 
     public static void main(String[] args) {

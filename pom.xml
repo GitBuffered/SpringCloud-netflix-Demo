@@ -58,6 +58,11 @@
 		<module>springcloud-eureka-client</module>
 		<module>springcloud-eureka-server-authenticating</module>
 		<module>springcloud-eureka-client-authentication</module>
+    <module>springcloud-eureka-clientB</module>
+    <module>springcloud-eureka-ribbon</module>
+    <module>springcloud-eureka-ribbon-custom</module>
+    <module>springcloud-ribbon-properties-customiz</module>
+    <module>springcloud-ribbon-without-eureka</module>
   </modules>
   
 </project>
