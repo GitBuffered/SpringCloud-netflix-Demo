@@ -1,0 +1,19 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+server:
+  port: 1238
+spring:
+  application:
+    name: client-feign
+feign: 
+  hystrix: 
+   enabled: true
+logging:
+ level:
+    org:
+      springcloud:
+        feign:
+          over:
+            TestClient: DEBUG #日志起作用的接口配置包路径

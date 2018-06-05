@@ -6,6 +6,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.netflix.appinfo.InstanceInfo;
@@ -17,7 +19,7 @@ import com.netflix.discovery.EurekaClient;
 public class Application {
 	@Autowired
 	private EurekaClient discoveryClient;
-	@GetMapping("/eureka-info")
+    @RequestMapping(method = RequestMethod.GET, value = "/eureka-info")
 	public String serviceUrl() {
 	    InstanceInfo instance = discoveryClient.getNextServerFromEureka("CLIENT", false);
 	    return instance.getHomePageUrl();

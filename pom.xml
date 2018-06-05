@@ -63,6 +63,10 @@
     <module>springcloud-eureka-ribbon-custom</module>
     <module>springcloud-ribbon-properties-customiz</module>
     <module>springcloud-ribbon-without-eureka</module>
+    <module>springcloud-feign</module>
+    <module>springcloud-feign-overriding</module>
+    <module>springcloud-feign-manually</module>
+    <module>springcloud-feign-form</module>
   </modules>
   
 </project>
