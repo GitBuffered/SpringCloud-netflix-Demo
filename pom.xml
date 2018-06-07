@@ -67,6 +67,12 @@
     <module>springcloud-feign-overriding</module>
     <module>springcloud-feign-manually</module>
     <module>springcloud-feign-form</module>
+    <module>springcloud-ribbon-hystrix</module>
+    <module>springcloud-ribbon-with-hystrix-propagation</module>
+    <module>springcloud-feign-with-hystrix</module>
+    <module>springcloud-hystrix-dashboard</module>
+  <module>springcloud-hystrix-turbine</module>
+
   </modules>
   
 </project>

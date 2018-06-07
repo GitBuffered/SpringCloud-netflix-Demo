@@ -1,0 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+server:
+  port: 1222
+spring:
+  application:
+    name: hystrix
+#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=2000
+
